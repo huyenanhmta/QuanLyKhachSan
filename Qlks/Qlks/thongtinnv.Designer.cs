@@ -146,6 +146,7 @@
             this.txt_sdt.Name = "txt_sdt";
             this.txt_sdt.Size = new System.Drawing.Size(208, 23);
             this.txt_sdt.TabIndex = 7;
+            this.txt_sdt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_sdt_KeyPress);
             // 
             // label7
             // 
@@ -209,6 +210,7 @@
             this.bt_them.TabIndex = 10;
             this.bt_them.Text = "Thêm";
             this.bt_them.UseVisualStyleBackColor = false;
+            this.bt_them.Click += new System.EventHandler(this.bt_them_Click);
             // 
             // bt_sua
             // 
@@ -221,6 +223,7 @@
             this.bt_sua.TabIndex = 11;
             this.bt_sua.Text = "Sửa";
             this.bt_sua.UseVisualStyleBackColor = false;
+            this.bt_sua.Click += new System.EventHandler(this.bt_sua_Click);
             // 
             // bt_xoa
             // 
@@ -233,6 +236,7 @@
             this.bt_xoa.TabIndex = 12;
             this.bt_xoa.Text = "Xóa";
             this.bt_xoa.UseVisualStyleBackColor = false;
+            this.bt_xoa.Click += new System.EventHandler(this.bt_xoa_Click);
             // 
             // rd_nam
             // 
@@ -284,6 +288,7 @@
             this.dg.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dg.Size = new System.Drawing.Size(319, 318);
             this.dg.TabIndex = 701;
+            this.dg.Click += new System.EventHandler(this.dg_Click);
             // 
             // Manv
             // 
@@ -339,6 +344,7 @@
             this.MinimumSize = new System.Drawing.Size(750, 500);
             this.Name = "thongtinnv";
             this.Text = "thongtinnv";
+            this.Load += new System.EventHandler(this.thongtinnv_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

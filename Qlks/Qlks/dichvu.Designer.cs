@@ -58,6 +58,7 @@
             this.bt_them.TabIndex = 0;
             this.bt_them.Text = "Thêm";
             this.bt_them.UseVisualStyleBackColor = false;
+            this.bt_them.Click += new System.EventHandler(this.bt_them_Click);
             // 
             // label1
             // 
@@ -89,6 +90,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(333, 265);
             this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // Madv
             // 
@@ -129,6 +131,7 @@
             this.bt_sua.TabIndex = 0;
             this.bt_sua.Text = "Sửa";
             this.bt_sua.UseVisualStyleBackColor = false;
+            this.bt_sua.Click += new System.EventHandler(this.bt_sua_Click);
             // 
             // bt_xoa
             // 
@@ -141,6 +144,7 @@
             this.bt_xoa.TabIndex = 0;
             this.bt_xoa.Text = "Xóa";
             this.bt_xoa.UseVisualStyleBackColor = false;
+            this.bt_xoa.Click += new System.EventHandler(this.bt_xoa_Click);
             // 
             // label2
             // 
@@ -204,6 +208,7 @@
             this.bt_luu.TabIndex = 4;
             this.bt_luu.Text = "Lưu";
             this.bt_luu.UseVisualStyleBackColor = false;
+            this.bt_luu.Click += new System.EventHandler(this.bt_luu_Click);
             // 
             // dichvu
             // 
@@ -225,6 +230,7 @@
             this.Controls.Add(this.bt_them);
             this.Name = "dichvu";
             this.Text = "dichvu";
+            this.Load += new System.EventHandler(this.dichvu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

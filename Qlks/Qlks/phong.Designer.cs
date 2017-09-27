@@ -153,6 +153,7 @@
             this.bt_sua.TabIndex = 9;
             this.bt_sua.Text = "Sửa";
             this.bt_sua.UseVisualStyleBackColor = false;
+            this.bt_sua.Click += new System.EventHandler(this.bt_sua_Click);
             // 
             // bt_huy
             // 
@@ -166,6 +167,7 @@
             this.bt_huy.TabIndex = 10;
             this.bt_huy.Text = "Đóng";
             this.bt_huy.UseVisualStyleBackColor = false;
+            this.bt_huy.Click += new System.EventHandler(this.bt_huy_Click);
             // 
             // rd_kt
             // 
@@ -179,6 +181,7 @@
             this.rd_kt.TabStop = true;
             this.rd_kt.Text = "Không Trống";
             this.rd_kt.UseVisualStyleBackColor = true;
+            this.rd_kt.CheckedChanged += new System.EventHandler(this.rd_kt_CheckedChanged);
             // 
             // rd_t
             // 
@@ -192,6 +195,7 @@
             this.rd_t.TabStop = true;
             this.rd_t.Text = "Phòng Trống";
             this.rd_t.UseVisualStyleBackColor = true;
+            this.rd_t.CheckedChanged += new System.EventHandler(this.rd_t_CheckedChanged);
             // 
             // label6
             // 
@@ -228,6 +232,7 @@
             this.txt_socm.Name = "txt_socm";
             this.txt_socm.Size = new System.Drawing.Size(213, 20);
             this.txt_socm.TabIndex = 5;
+            this.txt_socm.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_socm_KeyPress);
             // 
             // label9
             // 
@@ -246,6 +251,7 @@
             this.txt_songuoidp.Name = "txt_songuoidp";
             this.txt_songuoidp.Size = new System.Drawing.Size(213, 20);
             this.txt_songuoidp.TabIndex = 6;
+            this.txt_songuoidp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_songuoidp_KeyPress);
             // 
             // dt_ngaydp
             // 
@@ -302,6 +308,7 @@
             this.bt_tinhtien.TabIndex = 11;
             this.bt_tinhtien.Text = "Tính Tiền";
             this.bt_tinhtien.UseVisualStyleBackColor = false;
+            this.bt_tinhtien.Click += new System.EventHandler(this.bt_tinhtien_Click);
             // 
             // bt_capnhat
             // 
@@ -314,6 +321,7 @@
             this.bt_capnhat.TabIndex = 12;
             this.bt_capnhat.Text = "Cập Nhật";
             this.bt_capnhat.UseVisualStyleBackColor = false;
+            this.bt_capnhat.Click += new System.EventHandler(this.bt_capnhat_Click);
             // 
             // label10
             // 
@@ -400,6 +408,7 @@
             this.MinimizeBox = false;
             this.Name = "phong";
             this.Text = "phong";
+            this.Load += new System.EventHandler(this.phong_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

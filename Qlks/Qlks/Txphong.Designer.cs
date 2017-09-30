@@ -51,6 +51,7 @@
             this.rd_xoa.TabIndex = 0;
             this.rd_xoa.Text = "Xóa Phòng";
             this.rd_xoa.UseVisualStyleBackColor = true;
+            this.rd_xoa.CheckedChanged += new System.EventHandler(this.rd_xoa_CheckedChanged);
             // 
             // cb_mp
             // 
@@ -84,6 +85,7 @@
             this.bt_xoa.TabIndex = 3;
             this.bt_xoa.Text = "Xóa";
             this.bt_xoa.UseVisualStyleBackColor = false;
+            this.bt_xoa.Click += new System.EventHandler(this.bt_xoa_Click);
             // 
             // rd_them
             // 
@@ -97,6 +99,7 @@
             this.rd_them.TabIndex = 4;
             this.rd_them.Text = "Thêm Phòng";
             this.rd_them.UseVisualStyleBackColor = true;
+            this.rd_them.CheckedChanged += new System.EventHandler(this.rd_them_CheckedChanged);
             // 
             // bt_them
             // 
@@ -109,6 +112,7 @@
             this.bt_them.TabIndex = 7;
             this.bt_them.Text = "Thêm";
             this.bt_them.UseVisualStyleBackColor = false;
+            this.bt_them.Click += new System.EventHandler(this.bt_them_Click);
             // 
             // label2
             // 
@@ -164,6 +168,7 @@
             this.MinimumSize = new System.Drawing.Size(660, 185);
             this.Name = "Txphong";
             this.Text = "themnv";
+            this.Load += new System.EventHandler(this.Txphong_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

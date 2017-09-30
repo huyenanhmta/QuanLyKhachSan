@@ -66,6 +66,7 @@
             this.bt_sai.TabIndex = 2;
             this.bt_sai.Text = "sai";
             this.bt_sai.UseVisualStyleBackColor = true;
+            this.bt_sai.Click += new System.EventHandler(this.bt_sai_Click);
             // 
             // lb
             // 
@@ -103,10 +104,12 @@
             this.bt_choi.TabIndex = 5;
             this.bt_choi.Text = "Chơi";
             this.bt_choi.UseVisualStyleBackColor = false;
+            this.bt_choi.Click += new System.EventHandler(this.bt_choi_Click);
             // 
             // timer1
             // 
             this.timer1.Interval = 3000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // lb_m
             // 
@@ -132,6 +135,7 @@
             this.bt_dung.TabIndex = 1;
             this.bt_dung.Text = "đúng";
             this.bt_dung.UseVisualStyleBackColor = true;
+            this.bt_dung.Click += new System.EventHandler(this.bt_dung_Click);
             // 
             // label1
             // 
@@ -160,6 +164,7 @@
             // timer2
             // 
             this.timer2.Interval = 1000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // HuongDan
             // 
@@ -180,6 +185,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HuongDan";
             this.Text = "HuongDan";
+            this.Load += new System.EventHandler(this.HuongDan_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

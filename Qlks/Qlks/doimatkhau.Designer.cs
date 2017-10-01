@@ -147,6 +147,7 @@
             this.bt_luu.TabIndex = 3;
             this.bt_luu.Text = "Lưu";
             this.bt_luu.UseVisualStyleBackColor = false;
+            this.bt_luu.Click += new System.EventHandler(this.bt_luu_Click);
             // 
             // bt_dong
             // 
@@ -160,6 +161,7 @@
             this.bt_dong.TabIndex = 4;
             this.bt_dong.Text = "Đóng";
             this.bt_dong.UseVisualStyleBackColor = false;
+            this.bt_dong.Click += new System.EventHandler(this.bt_dong_Click);
             // 
             // pictureBox1
             // 
@@ -169,6 +171,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(25, 25);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // doimatkhau
             // 
@@ -193,6 +196,7 @@
             this.MinimumSize = new System.Drawing.Size(315, 310);
             this.Name = "doimatkhau";
             this.Text = "doimatkhau";
+            this.Load += new System.EventHandler(this.doimatkhau_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

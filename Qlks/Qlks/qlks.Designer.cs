@@ -174,6 +174,7 @@
             this.lbl_ten.Size = new System.Drawing.Size(30, 17);
             this.lbl_ten.TabIndex = 0;
             this.lbl_ten.Text = "null";
+            this.lbl_ten.Click += new System.EventHandler(this.lbl_ten_Click);
             // 
             // menuStrip1
             // 
@@ -209,12 +210,15 @@
             this.đăngNhậpToolStripMenuItem.Name = "đăngNhậpToolStripMenuItem";
             this.đăngNhậpToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
             this.đăngNhậpToolStripMenuItem.Text = "Đăng Nhập";
+            this.đăngNhậpToolStripMenuItem.Click += new System.EventHandler(this.đăngNhậpToolStripMenuItem_Click);
             // 
             // đăngXuấtToolStripMenuItem
             // 
+            this.đăngXuấtToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("đăngXuấtToolStripMenuItem.Image")));
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
             this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
             this.đăngXuấtToolStripMenuItem.Text = "Thoát";
+            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // đổiMậtKhẩuToolStripMenuItem
             // 
@@ -222,6 +226,7 @@
             this.đổiMậtKhẩuToolStripMenuItem.Name = "đổiMậtKhẩuToolStripMenuItem";
             this.đổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
             this.đổiMậtKhẩuToolStripMenuItem.Text = "Đổi Mật Khẩu";
+            this.đổiMậtKhẩuToolStripMenuItem.Click += new System.EventHandler(this.đổiMậtKhẩuToolStripMenuItem_Click);
             // 
             // đổiNềnToolStripMenuItem
             // 
@@ -243,42 +248,49 @@
             this.nền1ToolStripMenuItem.Name = "nền1ToolStripMenuItem";
             this.nền1ToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
             this.nền1ToolStripMenuItem.Text = "Nền 1";
+            this.nền1ToolStripMenuItem.Click += new System.EventHandler(this.nền1ToolStripMenuItem_Click);
             // 
             // nền2ToolStripMenuItem
             // 
             this.nền2ToolStripMenuItem.Name = "nền2ToolStripMenuItem";
             this.nền2ToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
             this.nền2ToolStripMenuItem.Text = "Nền 2";
+            this.nền2ToolStripMenuItem.Click += new System.EventHandler(this.nền2ToolStripMenuItem_Click);
             // 
             // nền3ToolStripMenuItem
             // 
             this.nền3ToolStripMenuItem.Name = "nền3ToolStripMenuItem";
             this.nền3ToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
             this.nền3ToolStripMenuItem.Text = "Nền 3";
+            this.nền3ToolStripMenuItem.Click += new System.EventHandler(this.nền3ToolStripMenuItem_Click);
             // 
             // nền4ToolStripMenuItem
             // 
             this.nền4ToolStripMenuItem.Name = "nền4ToolStripMenuItem";
             this.nền4ToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
             this.nền4ToolStripMenuItem.Text = "Nền 4";
+            this.nền4ToolStripMenuItem.Click += new System.EventHandler(this.nền4ToolStripMenuItem_Click);
             // 
             // nền5ToolStripMenuItem
             // 
             this.nền5ToolStripMenuItem.Name = "nền5ToolStripMenuItem";
             this.nền5ToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
             this.nền5ToolStripMenuItem.Text = "Nền 5";
+            this.nền5ToolStripMenuItem.Click += new System.EventHandler(this.nền5ToolStripMenuItem_Click);
             // 
             // nền6ToolStripMenuItem
             // 
             this.nền6ToolStripMenuItem.Name = "nền6ToolStripMenuItem";
             this.nền6ToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
             this.nền6ToolStripMenuItem.Text = "Nền 6";
+            this.nền6ToolStripMenuItem.Click += new System.EventHandler(this.nền6ToolStripMenuItem_Click);
             // 
             // noneToolStripMenuItem
             // 
             this.noneToolStripMenuItem.Name = "noneToolStripMenuItem";
             this.noneToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
             this.noneToolStripMenuItem.Text = "None";
+            this.noneToolStripMenuItem.Click += new System.EventHandler(this.noneToolStripMenuItem_Click);
             // 
             // quảnLýToolStripMenuItem
             // 
@@ -299,6 +311,7 @@
             this.danhSáchPhòngToolStripMenuItem.Name = "danhSáchPhòngToolStripMenuItem";
             this.danhSáchPhòngToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
             this.danhSáchPhòngToolStripMenuItem.Text = "Danh Sách Phòng";
+            this.danhSáchPhòngToolStripMenuItem.Click += new System.EventHandler(this.danhSáchPhòngToolStripMenuItem_Click);
             // 
             // nhânViênToolStripMenuItem
             // 
@@ -306,6 +319,7 @@
             this.nhânViênToolStripMenuItem.Name = "nhânViênToolStripMenuItem";
             this.nhânViênToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
             this.nhânViênToolStripMenuItem.Text = "Nhân Viên";
+            this.nhânViênToolStripMenuItem.Click += new System.EventHandler(this.nhânViênToolStripMenuItem_Click);
             // 
             // sửaPhòngToolStripMenuItem
             // 
@@ -313,6 +327,7 @@
             this.sửaPhòngToolStripMenuItem.Name = "sửaPhòngToolStripMenuItem";
             this.sửaPhòngToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
             this.sửaPhòngToolStripMenuItem.Text = "Sửa Phòng";
+            this.sửaPhòngToolStripMenuItem.Click += new System.EventHandler(this.sửaPhòngToolStripMenuItem_Click);
             // 
             // tìmKiếmKháchHàngToolStripMenuItem
             // 
@@ -320,6 +335,7 @@
             this.tìmKiếmKháchHàngToolStripMenuItem.Name = "tìmKiếmKháchHàngToolStripMenuItem";
             this.tìmKiếmKháchHàngToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
             this.tìmKiếmKháchHàngToolStripMenuItem.Text = "Tìm Kiếm Khách Hàng";
+            this.tìmKiếmKháchHàngToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmKháchHàngToolStripMenuItem_Click);
             // 
             // thêmXóaPhòngToolStripMenuItem
             // 
@@ -327,6 +343,7 @@
             this.thêmXóaPhòngToolStripMenuItem.Name = "thêmXóaPhòngToolStripMenuItem";
             this.thêmXóaPhòngToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
             this.thêmXóaPhòngToolStripMenuItem.Text = "Thêm/Xóa Phòng";
+            this.thêmXóaPhòngToolStripMenuItem.Click += new System.EventHandler(this.thêmXóaPhòngToolStripMenuItem_Click);
             // 
             // danhMụcToolStripMenuItem
             // 
@@ -349,6 +366,7 @@
             this.doanhThuToolStripMenuItem.Name = "doanhThuToolStripMenuItem";
             this.doanhThuToolStripMenuItem.Size = new System.Drawing.Size(149, 24);
             this.doanhThuToolStripMenuItem.Text = "Doanh Thu";
+            this.doanhThuToolStripMenuItem.Click += new System.EventHandler(this.doanhThuToolStripMenuItem_Click);
             // 
             // chiếtXuấtToolStripMenuItem
             // 
@@ -371,6 +389,7 @@
             this.thôngTinToolStripMenuItem.Name = "thôngTinToolStripMenuItem";
             this.thôngTinToolStripMenuItem.Size = new System.Drawing.Size(154, 24);
             this.thôngTinToolStripMenuItem.Text = "Thông Tin";
+            this.thôngTinToolStripMenuItem.Click += new System.EventHandler(this.thôngTinToolStripMenuItem_Click);
             // 
             // hướngDẫnToolStripMenuItem
             // 
@@ -378,6 +397,7 @@
             this.hướngDẫnToolStripMenuItem.Name = "hướngDẫnToolStripMenuItem";
             this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(154, 24);
             this.hướngDẫnToolStripMenuItem.Text = "Hướng Dẫn";
+            this.hướngDẫnToolStripMenuItem.Click += new System.EventHandler(this.hướngDẫnToolStripMenuItem_Click);
             // 
             // button1
             // 
@@ -389,6 +409,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -400,6 +421,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // bt_101
             // 
@@ -408,6 +430,9 @@
             this.bt_101.Size = new System.Drawing.Size(80, 80);
             this.bt_101.TabIndex = 4;
             this.bt_101.UseVisualStyleBackColor = true;
+            this.bt_101.Click += new System.EventHandler(this.bt_101_Click);
+            this.bt_101.MouseClick += new System.Windows.Forms.MouseEventHandler(this.bt_101_MouseClick);
+            this.bt_101.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_101_MouseDown);
             // 
             // bt_102
             // 
@@ -416,6 +441,8 @@
             this.bt_102.Size = new System.Drawing.Size(80, 80);
             this.bt_102.TabIndex = 4;
             this.bt_102.UseVisualStyleBackColor = true;
+            this.bt_102.Click += new System.EventHandler(this.bt_102_Click);
+            this.bt_102.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_102_MouseDown);
             // 
             // bt_103
             // 
@@ -424,6 +451,8 @@
             this.bt_103.Size = new System.Drawing.Size(80, 80);
             this.bt_103.TabIndex = 4;
             this.bt_103.UseVisualStyleBackColor = true;
+            this.bt_103.Click += new System.EventHandler(this.bt_103_Click);
+            this.bt_103.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_103_MouseDown);
             // 
             // bt_104
             // 
@@ -432,6 +461,8 @@
             this.bt_104.Size = new System.Drawing.Size(80, 80);
             this.bt_104.TabIndex = 4;
             this.bt_104.UseVisualStyleBackColor = true;
+            this.bt_104.Click += new System.EventHandler(this.bt_104_Click);
+            this.bt_104.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_104_MouseDown);
             // 
             // bt_105
             // 
@@ -440,6 +471,8 @@
             this.bt_105.Size = new System.Drawing.Size(80, 80);
             this.bt_105.TabIndex = 4;
             this.bt_105.UseVisualStyleBackColor = true;
+            this.bt_105.Click += new System.EventHandler(this.bt_105_Click);
+            this.bt_105.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_105_MouseDown);
             // 
             // bt_106
             // 
@@ -448,6 +481,8 @@
             this.bt_106.Size = new System.Drawing.Size(80, 80);
             this.bt_106.TabIndex = 4;
             this.bt_106.UseVisualStyleBackColor = true;
+            this.bt_106.Click += new System.EventHandler(this.bt_106_Click);
+            this.bt_106.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_106_MouseDown);
             // 
             // bt_108
             // 
@@ -456,6 +491,8 @@
             this.bt_108.Size = new System.Drawing.Size(80, 80);
             this.bt_108.TabIndex = 4;
             this.bt_108.UseVisualStyleBackColor = true;
+            this.bt_108.Click += new System.EventHandler(this.bt_108_Click);
+            this.bt_108.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_108_MouseDown);
             // 
             // bt_107
             // 
@@ -464,6 +501,8 @@
             this.bt_107.Size = new System.Drawing.Size(80, 80);
             this.bt_107.TabIndex = 4;
             this.bt_107.UseVisualStyleBackColor = true;
+            this.bt_107.Click += new System.EventHandler(this.bt_107_Click);
+            this.bt_107.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_107_MouseDown);
             // 
             // bt_109
             // 
@@ -472,6 +511,8 @@
             this.bt_109.Size = new System.Drawing.Size(80, 80);
             this.bt_109.TabIndex = 4;
             this.bt_109.UseVisualStyleBackColor = true;
+            this.bt_109.Click += new System.EventHandler(this.bt_109_Click);
+            this.bt_109.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_109_MouseDown);
             // 
             // bt_110
             // 
@@ -480,6 +521,8 @@
             this.bt_110.Size = new System.Drawing.Size(80, 80);
             this.bt_110.TabIndex = 4;
             this.bt_110.UseVisualStyleBackColor = true;
+            this.bt_110.Click += new System.EventHandler(this.bt_110_Click);
+            this.bt_110.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_110_MouseDown);
             // 
             // lb_102
             // 
@@ -578,6 +621,8 @@
             this.bt_201.Size = new System.Drawing.Size(80, 80);
             this.bt_201.TabIndex = 4;
             this.bt_201.UseVisualStyleBackColor = true;
+            this.bt_201.Click += new System.EventHandler(this.bt_201_Click);
+            this.bt_201.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_201_MouseDown);
             // 
             // bt_202
             // 
@@ -586,6 +631,8 @@
             this.bt_202.Size = new System.Drawing.Size(80, 80);
             this.bt_202.TabIndex = 4;
             this.bt_202.UseVisualStyleBackColor = true;
+            this.bt_202.Click += new System.EventHandler(this.bt_202_Click);
+            this.bt_202.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_202_MouseDown);
             // 
             // bt_203
             // 
@@ -594,6 +641,8 @@
             this.bt_203.Size = new System.Drawing.Size(80, 80);
             this.bt_203.TabIndex = 4;
             this.bt_203.UseVisualStyleBackColor = true;
+            this.bt_203.Click += new System.EventHandler(this.bt_203_Click);
+            this.bt_203.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_203_MouseDown);
             // 
             // bt_204
             // 
@@ -602,6 +651,8 @@
             this.bt_204.Size = new System.Drawing.Size(80, 80);
             this.bt_204.TabIndex = 4;
             this.bt_204.UseVisualStyleBackColor = true;
+            this.bt_204.Click += new System.EventHandler(this.bt_204_Click);
+            this.bt_204.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_204_MouseDown);
             // 
             // bt_205
             // 
@@ -610,6 +661,8 @@
             this.bt_205.Size = new System.Drawing.Size(80, 80);
             this.bt_205.TabIndex = 4;
             this.bt_205.UseVisualStyleBackColor = true;
+            this.bt_205.Click += new System.EventHandler(this.bt_205_Click);
+            this.bt_205.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_205_MouseDown_1);
             // 
             // bt_206
             // 
@@ -618,6 +671,8 @@
             this.bt_206.Size = new System.Drawing.Size(80, 80);
             this.bt_206.TabIndex = 4;
             this.bt_206.UseVisualStyleBackColor = true;
+            this.bt_206.Click += new System.EventHandler(this.bt_206_Click);
+            this.bt_206.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_206_MouseDown);
             // 
             // bt_208
             // 
@@ -626,6 +681,8 @@
             this.bt_208.Size = new System.Drawing.Size(80, 80);
             this.bt_208.TabIndex = 4;
             this.bt_208.UseVisualStyleBackColor = true;
+            this.bt_208.Click += new System.EventHandler(this.bt_208_Click);
+            this.bt_208.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_208_MouseDown);
             // 
             // bt_209
             // 
@@ -634,6 +691,8 @@
             this.bt_209.Size = new System.Drawing.Size(80, 80);
             this.bt_209.TabIndex = 4;
             this.bt_209.UseVisualStyleBackColor = true;
+            this.bt_209.Click += new System.EventHandler(this.bt_209_Click);
+            this.bt_209.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_209_MouseDown);
             // 
             // bt_210
             // 
@@ -642,7 +701,9 @@
             this.bt_210.Size = new System.Drawing.Size(80, 80);
             this.bt_210.TabIndex = 4;
             this.bt_210.UseVisualStyleBackColor = true;
-             // 
+            this.bt_210.Click += new System.EventHandler(this.bt_210_Click);
+            this.bt_210.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_210_MouseDown);
+            // 
             // bt_207
             // 
             this.bt_207.Location = new System.Drawing.Point(577, 215);
@@ -650,6 +711,8 @@
             this.bt_207.Size = new System.Drawing.Size(80, 80);
             this.bt_207.TabIndex = 4;
             this.bt_207.UseVisualStyleBackColor = true;
+            this.bt_207.Click += new System.EventHandler(this.bt_207_Click);
+            this.bt_207.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_207_MouseDown);
             // 
             // lb_202
             // 
@@ -748,7 +811,9 @@
             this.bt_301.Size = new System.Drawing.Size(80, 80);
             this.bt_301.TabIndex = 4;
             this.bt_301.UseVisualStyleBackColor = true;
-             // 
+            this.bt_301.Click += new System.EventHandler(this.bt_301_Click);
+            this.bt_301.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_301_MouseDown);
+            // 
             // bt_302
             // 
             this.bt_302.Location = new System.Drawing.Point(147, 314);
@@ -756,7 +821,9 @@
             this.bt_302.Size = new System.Drawing.Size(80, 80);
             this.bt_302.TabIndex = 4;
             this.bt_302.UseVisualStyleBackColor = true;
-             // 
+            this.bt_302.Click += new System.EventHandler(this.bt_302_Click);
+            this.bt_302.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_302_MouseDown);
+            // 
             // bt_303
             // 
             this.bt_303.Location = new System.Drawing.Point(233, 314);
@@ -764,6 +831,8 @@
             this.bt_303.Size = new System.Drawing.Size(80, 80);
             this.bt_303.TabIndex = 4;
             this.bt_303.UseVisualStyleBackColor = true;
+            this.bt_303.Click += new System.EventHandler(this.bt_303_Click);
+            this.bt_303.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_303_MouseDown);
             // 
             // bt_304
             // 
@@ -772,7 +841,9 @@
             this.bt_304.Size = new System.Drawing.Size(80, 80);
             this.bt_304.TabIndex = 4;
             this.bt_304.UseVisualStyleBackColor = true;
-             // 
+            this.bt_304.Click += new System.EventHandler(this.bt_304_Click);
+            this.bt_304.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_304_MouseDown);
+            // 
             // bt_305
             // 
             this.bt_305.Location = new System.Drawing.Point(405, 314);
@@ -780,6 +851,8 @@
             this.bt_305.Size = new System.Drawing.Size(80, 80);
             this.bt_305.TabIndex = 4;
             this.bt_305.UseVisualStyleBackColor = true;
+            this.bt_305.Click += new System.EventHandler(this.bt_305_Click);
+            this.bt_305.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_305_MouseDown);
             // 
             // bt_306
             // 
@@ -788,7 +861,9 @@
             this.bt_306.Size = new System.Drawing.Size(80, 80);
             this.bt_306.TabIndex = 4;
             this.bt_306.UseVisualStyleBackColor = true;
-             // 
+            this.bt_306.Click += new System.EventHandler(this.bt_306_Click);
+            this.bt_306.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_306_MouseDown);
+            // 
             // bt_308
             // 
             this.bt_308.Location = new System.Drawing.Point(663, 314);
@@ -796,7 +871,9 @@
             this.bt_308.Size = new System.Drawing.Size(80, 80);
             this.bt_308.TabIndex = 4;
             this.bt_308.UseVisualStyleBackColor = true;
-             // 
+            this.bt_308.Click += new System.EventHandler(this.bt_308_Click);
+            this.bt_308.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_308_MouseDown);
+            // 
             // bt_309
             // 
             this.bt_309.Location = new System.Drawing.Point(749, 314);
@@ -804,7 +881,9 @@
             this.bt_309.Size = new System.Drawing.Size(80, 80);
             this.bt_309.TabIndex = 4;
             this.bt_309.UseVisualStyleBackColor = true;
-             // 
+            this.bt_309.Click += new System.EventHandler(this.bt_309_Click);
+            this.bt_309.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_309_MouseDown);
+            // 
             // bt_310
             // 
             this.bt_310.Location = new System.Drawing.Point(835, 314);
@@ -812,7 +891,9 @@
             this.bt_310.Size = new System.Drawing.Size(80, 80);
             this.bt_310.TabIndex = 4;
             this.bt_310.UseVisualStyleBackColor = true;
-           // 
+            this.bt_310.Click += new System.EventHandler(this.bt_310_Click);
+            this.bt_310.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_310_MouseDown);
+            // 
             // bt_307
             // 
             this.bt_307.Location = new System.Drawing.Point(577, 314);
@@ -820,7 +901,9 @@
             this.bt_307.Size = new System.Drawing.Size(80, 80);
             this.bt_307.TabIndex = 4;
             this.bt_307.UseVisualStyleBackColor = true;
-             // 
+            this.bt_307.Click += new System.EventHandler(this.bt_307_Click);
+            this.bt_307.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_307_MouseDown);
+            // 
             // lb_302
             // 
             this.lb_302.AutoSize = true;
@@ -918,6 +1001,8 @@
             this.bt_401.Size = new System.Drawing.Size(80, 80);
             this.bt_401.TabIndex = 4;
             this.bt_401.UseVisualStyleBackColor = true;
+            this.bt_401.Click += new System.EventHandler(this.bt_401_Click);
+            this.bt_401.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_401_MouseDown);
             // 
             // bt_402
             // 
@@ -926,7 +1011,9 @@
             this.bt_402.Size = new System.Drawing.Size(80, 80);
             this.bt_402.TabIndex = 4;
             this.bt_402.UseVisualStyleBackColor = true;
-             // 
+            this.bt_402.Click += new System.EventHandler(this.bt_402_Click);
+            this.bt_402.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_402_MouseDown);
+            // 
             // bt_403
             // 
             this.bt_403.Location = new System.Drawing.Point(233, 413);
@@ -934,6 +1021,8 @@
             this.bt_403.Size = new System.Drawing.Size(80, 80);
             this.bt_403.TabIndex = 4;
             this.bt_403.UseVisualStyleBackColor = true;
+            this.bt_403.Click += new System.EventHandler(this.bt_403_Click);
+            this.bt_403.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_403_MouseDown);
             // 
             // bt_404
             // 
@@ -942,6 +1031,8 @@
             this.bt_404.Size = new System.Drawing.Size(80, 80);
             this.bt_404.TabIndex = 4;
             this.bt_404.UseVisualStyleBackColor = true;
+            this.bt_404.Click += new System.EventHandler(this.bt_404_Click);
+            this.bt_404.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_404_MouseDown);
             // 
             // bt_405
             // 
@@ -950,7 +1041,9 @@
             this.bt_405.Size = new System.Drawing.Size(80, 80);
             this.bt_405.TabIndex = 4;
             this.bt_405.UseVisualStyleBackColor = true;
-             // 
+            this.bt_405.Click += new System.EventHandler(this.bt_405_Click);
+            this.bt_405.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_405_MouseDown);
+            // 
             // bt_406
             // 
             this.bt_406.Location = new System.Drawing.Point(491, 413);
@@ -958,7 +1051,9 @@
             this.bt_406.Size = new System.Drawing.Size(80, 80);
             this.bt_406.TabIndex = 4;
             this.bt_406.UseVisualStyleBackColor = true;
-             // 
+            this.bt_406.Click += new System.EventHandler(this.bt_406_Click);
+            this.bt_406.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_406_MouseDown);
+            // 
             // bt_408
             // 
             this.bt_408.Location = new System.Drawing.Point(663, 413);
@@ -966,7 +1061,9 @@
             this.bt_408.Size = new System.Drawing.Size(80, 80);
             this.bt_408.TabIndex = 4;
             this.bt_408.UseVisualStyleBackColor = true;
-             // 
+            this.bt_408.Click += new System.EventHandler(this.bt_408_Click);
+            this.bt_408.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_408_MouseDown);
+            // 
             // bt_409
             // 
             this.bt_409.Location = new System.Drawing.Point(749, 413);
@@ -974,6 +1071,8 @@
             this.bt_409.Size = new System.Drawing.Size(80, 80);
             this.bt_409.TabIndex = 4;
             this.bt_409.UseVisualStyleBackColor = true;
+            this.bt_409.Click += new System.EventHandler(this.bt_409_Click);
+            this.bt_409.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_409_MouseDown);
             // 
             // bt_410
             // 
@@ -982,6 +1081,8 @@
             this.bt_410.Size = new System.Drawing.Size(80, 80);
             this.bt_410.TabIndex = 4;
             this.bt_410.UseVisualStyleBackColor = true;
+            this.bt_410.Click += new System.EventHandler(this.bt_410_Click);
+            this.bt_410.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_410_MouseDown);
             // 
             // bt_407
             // 
@@ -990,7 +1091,9 @@
             this.bt_407.Size = new System.Drawing.Size(80, 80);
             this.bt_407.TabIndex = 4;
             this.bt_407.UseVisualStyleBackColor = true;
-             // 
+            this.bt_407.Click += new System.EventHandler(this.bt_407_Click);
+            this.bt_407.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_407_MouseDown);
+            // 
             // lb_402
             // 
             this.lb_402.AutoSize = true;
@@ -1088,6 +1191,8 @@
             this.bt_501.Size = new System.Drawing.Size(80, 80);
             this.bt_501.TabIndex = 4;
             this.bt_501.UseVisualStyleBackColor = true;
+            this.bt_501.Click += new System.EventHandler(this.bt_501_Click);
+            this.bt_501.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_501_MouseDown);
             // 
             // bt_502
             // 
@@ -1096,7 +1201,9 @@
             this.bt_502.Size = new System.Drawing.Size(80, 80);
             this.bt_502.TabIndex = 4;
             this.bt_502.UseVisualStyleBackColor = true;
-             // 
+            this.bt_502.Click += new System.EventHandler(this.bt_502_Click);
+            this.bt_502.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_502_MouseDown);
+            // 
             // bt_503
             // 
             this.bt_503.Location = new System.Drawing.Point(233, 512);
@@ -1104,6 +1211,8 @@
             this.bt_503.Size = new System.Drawing.Size(80, 80);
             this.bt_503.TabIndex = 4;
             this.bt_503.UseVisualStyleBackColor = true;
+            this.bt_503.Click += new System.EventHandler(this.bt_503_Click);
+            this.bt_503.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_503_MouseDown);
             // 
             // bt_504
             // 
@@ -1112,7 +1221,9 @@
             this.bt_504.Size = new System.Drawing.Size(80, 80);
             this.bt_504.TabIndex = 4;
             this.bt_504.UseVisualStyleBackColor = true;
-             // 
+            this.bt_504.Click += new System.EventHandler(this.bt_504_Click);
+            this.bt_504.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_504_MouseDown);
+            // 
             // bt_505
             // 
             this.bt_505.Location = new System.Drawing.Point(405, 512);
@@ -1120,6 +1231,8 @@
             this.bt_505.Size = new System.Drawing.Size(80, 80);
             this.bt_505.TabIndex = 4;
             this.bt_505.UseVisualStyleBackColor = true;
+            this.bt_505.Click += new System.EventHandler(this.bt_505_Click);
+            this.bt_505.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_505_MouseDown);
             // 
             // bt_506
             // 
@@ -1128,6 +1241,8 @@
             this.bt_506.Size = new System.Drawing.Size(80, 80);
             this.bt_506.TabIndex = 4;
             this.bt_506.UseVisualStyleBackColor = true;
+            this.bt_506.Click += new System.EventHandler(this.bt_506_Click);
+            this.bt_506.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_506_MouseDown);
             // 
             // bt_508
             // 
@@ -1136,7 +1251,9 @@
             this.bt_508.Size = new System.Drawing.Size(80, 80);
             this.bt_508.TabIndex = 4;
             this.bt_508.UseVisualStyleBackColor = true;
-           // 
+            this.bt_508.Click += new System.EventHandler(this.bt_508_Click);
+            this.bt_508.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_508_MouseDown);
+            // 
             // bt_509
             // 
             this.bt_509.Location = new System.Drawing.Point(749, 512);
@@ -1144,6 +1261,8 @@
             this.bt_509.Size = new System.Drawing.Size(80, 80);
             this.bt_509.TabIndex = 4;
             this.bt_509.UseVisualStyleBackColor = true;
+            this.bt_509.Click += new System.EventHandler(this.bt_509_Click);
+            this.bt_509.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_509_MouseDown);
             // 
             // bt_510
             // 
@@ -1152,7 +1271,9 @@
             this.bt_510.Size = new System.Drawing.Size(80, 80);
             this.bt_510.TabIndex = 4;
             this.bt_510.UseVisualStyleBackColor = true;
-           // 
+            this.bt_510.Click += new System.EventHandler(this.bt_510_Click);
+            this.bt_510.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_510_MouseDown);
+            // 
             // bt_507
             // 
             this.bt_507.Location = new System.Drawing.Point(577, 512);
@@ -1160,7 +1281,9 @@
             this.bt_507.Size = new System.Drawing.Size(80, 80);
             this.bt_507.TabIndex = 4;
             this.bt_507.UseVisualStyleBackColor = true;
-             // 
+            this.bt_507.Click += new System.EventHandler(this.bt_507_Click);
+            this.bt_507.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_507_MouseDown);
+            // 
             // lb_502
             // 
             this.lb_502.AutoSize = true;
@@ -1276,6 +1399,7 @@
             this.sửaDịchVụToolStripMenuItem.Name = "sửaDịchVụToolStripMenuItem";
             this.sửaDịchVụToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
             this.sửaDịchVụToolStripMenuItem.Text = "Sửa Dịch Vụ";
+            this.sửaDịchVụToolStripMenuItem.Click += new System.EventHandler(this.sửaDịchVụToolStripMenuItem_Click);
             // 
             // qlks
             // 
@@ -1395,6 +1519,7 @@
             this.Name = "qlks";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Quản Lý Khách Sạn";
+            this.Load += new System.EventHandler(this.qlks_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pt_hinh)).EndInit();

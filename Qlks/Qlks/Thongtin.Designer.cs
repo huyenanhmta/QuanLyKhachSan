@@ -43,6 +43,7 @@
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(1183, 615);
             this.webBrowser1.TabIndex = 0;
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
             // txt_dc
             // 
@@ -65,6 +66,7 @@
             this.bt_go.TabIndex = 2;
             this.bt_go.Text = "Go";
             this.bt_go.UseVisualStyleBackColor = false;
+            this.bt_go.Click += new System.EventHandler(this.bt_go_Click);
             // 
             // bt_1
             // 
@@ -77,6 +79,7 @@
             this.bt_1.TabIndex = 3;
             this.bt_1.Text = "<";
             this.bt_1.UseVisualStyleBackColor = false;
+            this.bt_1.Click += new System.EventHandler(this.bt_1_Click);
             // 
             // bt_2
             // 
@@ -89,6 +92,7 @@
             this.bt_2.TabIndex = 4;
             this.bt_2.Text = ">";
             this.bt_2.UseVisualStyleBackColor = false;
+            this.bt_2.Click += new System.EventHandler(this.bt_2_Click);
             // 
             // bt_3
             // 
@@ -101,6 +105,7 @@
             this.bt_3.TabIndex = 5;
             this.bt_3.Text = "<>";
             this.bt_3.UseVisualStyleBackColor = false;
+            this.bt_3.Click += new System.EventHandler(this.bt_3_Click);
             // 
             // Thongtin
             // 
@@ -119,6 +124,7 @@
             this.MinimumSize = new System.Drawing.Size(1200, 700);
             this.Name = "Thongtin";
             this.Text = "Thongtin";
+            this.Load += new System.EventHandler(this.Thongtin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

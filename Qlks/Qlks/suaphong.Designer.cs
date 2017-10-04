@@ -107,6 +107,7 @@
             this.bt_luu.TabIndex = 3;
             this.bt_luu.Text = "Lưu";
             this.bt_luu.UseVisualStyleBackColor = false;
+            this.bt_luu.Click += new System.EventHandler(this.bt_luu_Click);
             // 
             // bt_huy
             // 
@@ -120,6 +121,7 @@
             this.bt_huy.TabIndex = 4;
             this.bt_huy.Text = "Hủy";
             this.bt_huy.UseVisualStyleBackColor = false;
+            this.bt_huy.Click += new System.EventHandler(this.bt_huy_Click);
             // 
             // label1
             // 
@@ -180,6 +182,7 @@
             this.MinimumSize = new System.Drawing.Size(320, 250);
             this.Name = "suaphong";
             this.Text = "suaphong";
+            this.Load += new System.EventHandler(this.suaphong_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

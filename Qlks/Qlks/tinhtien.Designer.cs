@@ -201,6 +201,7 @@
             this.bt_tinhtien.TabIndex = 16;
             this.bt_tinhtien.Text = "Tính Tiền";
             this.bt_tinhtien.UseVisualStyleBackColor = false;
+            this.bt_tinhtien.Click += new System.EventHandler(this.bt_tinhtien_Click);
             // 
             // bt_in
             // 
@@ -213,6 +214,7 @@
             this.bt_in.TabIndex = 16;
             this.bt_in.Text = "In Hóa Đơn";
             this.bt_in.UseVisualStyleBackColor = false;
+            this.bt_in.Click += new System.EventHandler(this.bt_in_Click);
             // 
             // bt_huy
             // 
@@ -225,6 +227,7 @@
             this.bt_huy.TabIndex = 16;
             this.bt_huy.Text = "Hủy";
             this.bt_huy.UseVisualStyleBackColor = false;
+            this.bt_huy.Click += new System.EventHandler(this.bt_huy_Click);
             // 
             // lb_ngaydp
             // 
@@ -407,6 +410,7 @@
             this.MinimumSize = new System.Drawing.Size(730, 303);
             this.Name = "tinhtien";
             this.Text = "tinhtien";
+            this.Load += new System.EventHandler(this.tinhtien_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

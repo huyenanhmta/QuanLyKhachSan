@@ -112,7 +112,7 @@
             this.bt_lu.TabIndex = 2;
             this.bt_lu.Text = "Cập Nhật";
             this.bt_lu.UseVisualStyleBackColor = false;
-            
+            this.bt_lu.Click += new System.EventHandler(this.bt_lu_Click);
             // 
             // bt_huy
             // 
@@ -126,7 +126,7 @@
             this.bt_huy.TabIndex = 2;
             this.bt_huy.Text = "Hủy";
             this.bt_huy.UseVisualStyleBackColor = false;
-            
+            this.bt_huy.Click += new System.EventHandler(this.bt_huy_Click);
             // 
             // txt_dc
             // 
@@ -209,6 +209,7 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(331, 302);
             this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // Ma
             // 
@@ -259,7 +260,7 @@
             this.bt_qua.TabIndex = 7;
             this.bt_qua.Text = ">>";
             this.bt_qua.UseVisualStyleBackColor = false;
-            
+            this.bt_qua.Click += new System.EventHandler(this.bt_qua_Click);
             // 
             // label9
             // 
@@ -299,6 +300,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "capnhat";
             this.Text = "capnhat";
+            this.Load += new System.EventHandler(this.capnhat_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -55,6 +55,7 @@
             this.bt_luu.TabIndex = 0;
             this.bt_luu.Text = "Lưu";
             this.bt_luu.UseVisualStyleBackColor = false;
+            this.bt_luu.Click += new System.EventHandler(this.bt_luu_Click);
             // 
             // label1
             // 
@@ -173,6 +174,7 @@
             this.bt_thoat.TabIndex = 12;
             this.bt_thoat.Text = "Thoát";
             this.bt_thoat.UseVisualStyleBackColor = false;
+            this.bt_thoat.Click += new System.EventHandler(this.bt_thoat_Click);
             // 
             // panel1
             // 
@@ -212,6 +214,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "datphong";
+            this.Load += new System.EventHandler(this.datphong_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

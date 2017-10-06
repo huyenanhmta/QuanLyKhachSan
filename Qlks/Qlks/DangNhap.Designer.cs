@@ -61,6 +61,7 @@
             this.bt_thoat.TabIndex = 1;
             this.bt_thoat.Text = "X";
             this.bt_thoat.UseVisualStyleBackColor = false;
+            this.bt_thoat.Click += new System.EventHandler(this.bt_thoat_Click);
             // 
             // label2
             // 
@@ -99,6 +100,7 @@
             this.bt_dn.TabIndex = 2;
             this.bt_dn.Text = "Đăng Nhập";
             this.bt_dn.UseVisualStyleBackColor = false;
+            this.bt_dn.Click += new System.EventHandler(this.bt_dn_Click);
             // 
             // label3
             // 
@@ -141,6 +143,7 @@
             this.Name = "DangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DangNhap";
+            this.Load += new System.EventHandler(this.DangNhap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -101,6 +101,7 @@
             this.rd_t.TabStop = true;
             this.rd_t.Text = "Phòng Trống";
             this.rd_t.UseVisualStyleBackColor = true;
+            this.rd_t.Click += new System.EventHandler(this.rd_t_Click);
             // 
             // rd_kt
             // 
@@ -114,6 +115,7 @@
             this.rd_kt.TabStop = true;
             this.rd_kt.Text = "Phòng Không Trống";
             this.rd_kt.UseVisualStyleBackColor = true;
+            this.rd_kt.Click += new System.EventHandler(this.rd_kt_Click);
             // 
             // bt_loc
             // 
@@ -126,6 +128,7 @@
             this.bt_loc.TabIndex = 4;
             this.bt_loc.Text = "Lọc";
             this.bt_loc.UseVisualStyleBackColor = false;
+            this.bt_loc.Click += new System.EventHandler(this.bt_loc_Click);
             // 
             // bt_xoa
             // 
@@ -138,6 +141,7 @@
             this.bt_xoa.TabIndex = 4;
             this.bt_xoa.Text = "Xóa";
             this.bt_xoa.UseVisualStyleBackColor = false;
+            this.bt_xoa.Click += new System.EventHandler(this.bt_xoa_Click);
             // 
             // danhsachphong
             // 
@@ -154,6 +158,7 @@
             this.MinimumSize = new System.Drawing.Size(459, 584);
             this.Name = "danhsachphong";
             this.Text = "danhsachphong";
+            this.Load += new System.EventHandler(this.danhsachphong_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
